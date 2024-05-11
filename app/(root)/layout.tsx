@@ -1,6 +1,9 @@
+'use client'
+
 import MobileNav from "@/components/ui/MobileNav";
+import Sidebar from "@/components/ui/Sidebar";
 import { getLoggedInUser } from "@/lib/actions/user.actions";
-import { Sidebar } from "lucide-react";
+// import { Sidebar } from "lucide-react";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 

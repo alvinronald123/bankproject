@@ -1,5 +1,8 @@
+'use client'
+
 import HeaderBox from '@/components/ui/HeaderBox'
 import RightSidebar from '@/components/ui/RightSidebar'
+import Sidebar from '@/components/ui/Sidebar'
 import TotalBalanceBox from '@/components/ui/TotalBalanceBox'
 import React from 'react'
 
@@ -13,8 +16,9 @@ const Home = () => {
                         type="greeting"
                         title="Welcome"
                         user={loggedIn?.firstName || 'Guest'}
-                        subtext="Access and manage your account and transactions efficiently.."
+                        subtext="Access and manage your account and transactions efficiently."
                     />
+
                     <TotalBalanceBox
                         accounts={[]}
                         totalBanks={1}
